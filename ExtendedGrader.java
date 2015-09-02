@@ -80,7 +80,8 @@ class ExtendedGrader {
     System.out.println( "" );
     System.out.println( "Message: Help! I'm trapped inside a computer!" );
     
-    
+    // Showing the new commits
+    System.out.println( "Modifying this program for GitHub.com" );
   } // end main method
   
 } // end class

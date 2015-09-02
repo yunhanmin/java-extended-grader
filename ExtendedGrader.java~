@@ -32,7 +32,54 @@ class ExtendedGrader {
       
     } else {
       System.out.println( "You got an F. Loser..." );
+      
     }
+    
+    /*
+     * Challenge: Create an if-else that tells the user "Congrats!"
+     * if their grade is greater than 100 (bonus points). Or
+     * "You're a normal student." if under 100.
+     */
+    
+    if ( grade >= 100) {
+      System.out.println( "Congrats!" );
+    } else {
+      System.out.println( "You are a normal student." );
+    }
+    
+    /*
+     * Challenge: Using an if-else, tell the user whether
+     * their grade is "positive" or "negative" or "zero".
+     */
+    
+    if ( grade == 0) {
+      System.out.println( "Zero" );
+    } else if ( grade > 0 ) {
+      System.out.println( "Positive" );
+    } else {
+      System.out.println( "Negative" );
+    }
+    
+    /*
+     * Challenge: Make the computer print EXACTLY the following:
+     * 
+     * From: Bill Smith
+     * Address: Dell Computer, Bldg 13
+     * Date: April 12, 2005
+     * 
+     * To: Jack Jones
+     * 
+     * Message: Help! I'm trapped inside a computer!
+     */
+    // Using multiple System.outs
+    System.out.println( "From: Bill Smith" );
+    System.out.println( "Adress: Dell Computer, Bldg 13" );
+    System.out.println( "Date: April 12, 2015" );
+    System.out.println( "" );
+    System.out.println( "To: Jack Jones" );
+    System.out.println( "" );
+    System.out.println( "Message: Help! I'm trapped inside a computer!" );
+    
     
   } // end main method
   
