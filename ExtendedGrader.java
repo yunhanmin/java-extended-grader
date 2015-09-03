@@ -13,7 +13,12 @@ class ExtendedGrader {
     
     Scanner s = new Scanner( System.in );
     int grade;
+    int skip;
     
+    System.out.println( "Do you want the Grader (1) or Strings (2)?" );
+    skip = s.nextInt(); // get user choice
+    
+    if(skip == 1) {
     System.out.println( "Enter your grade percentage: " );
     grade = s.nextInt(); // input the user grade
     
@@ -82,6 +87,44 @@ class ExtendedGrader {
     
     // Showing the new commits
     System.out.println( "Modifying this program for GitHub.com" );
+    }
+    
+    else {
+     System.out.println( "Welcome to the String program!~" );
+     
+     // Number 1
+     String s2 = "The number of rabbits is ";
+     int argh = 129;
+     String report = s2 + argh;
+     System.out.println( report );
+     
+     // Number 2
+     String p = "Groovy Dude";
+     System.out.println( p.toUpperCase() );
+     
+     // Number 3
+     String g = "Computer Science is for NERDS!";
+     System.out.println( g.toLowerCase() );
+     
+     // Number 4
+     String c;
+     String m = "The Gettyburg Address";
+     c = m.substring(4);
+     System.out.println(c);
+     
+     // Number 5
+     String b = "four score and seven years ago,";
+     String c1 = b.substring(7,12);
+     System.out.println(c1);
+     
+     // Number 6
+     int count1;
+     String s1 = "Surface tension";
+     count1 = s1.length();
+     System.out.println( count1);
+     
+    }
+    
   } // end main method
   
 } // end class
