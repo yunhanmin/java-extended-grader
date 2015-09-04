@@ -123,6 +123,20 @@ class ExtendedGrader {
      count1 = s1.length();
      System.out.println( count1);
      
+     // Number 7
+     String m1 = "Look here!";
+     System.out.println( "\"" + m1 + "\" has " + m1.length() + " characters." );
+     
+     // Number 11
+     String pq = "Eddie Haskel";
+     int hm = pq.length();
+     String ed = pq.substring( hm-4 );
+     System.out.println( ed );
+     
+     // Number 12
+     String monster = "Herman Munster";
+     System.out.println( monster.substring( 5,6 ));
+     
     }
     
   } // end main method
